@@ -1,0 +1,11 @@
+
+isquid:UselessImportCheck">Remove this unused import 'org.json.simple.parser.JSONParser'.(õø²¹8´ÖÅû.
+nsquid:S1192+"KDefine a constant instead of duplicating this literal "text/plain" 4 times.(—¤¡Íøÿÿÿÿ8´ÖÅû.
+Usquid:S2589S"7Remove this expression which always evaluates to "true"(°³®›8´ÖÅû.
+Ÿsquid:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬‡¿™8´ÖÅû.
+jsquid:S2095R"LUse try-with-resources or close this "FormDataParser" in a "finally" clause.(˜Á¸Ñ8´ÖÅû.
+Jsquid:S1602r",Remove useless curly braces around statement(å°ä”8´ÖÅû.
+Nsquid:S1611p"0Remove the parentheses around the "ex" parameter(Î³Ô…8´ÖÅû.
+gsquid:UselessImportCheck"7Remove this unused import 'org.json.simple.JSONObject'.(‚ƒç‘ÿÿÿÿÿ8´ÖÅû.
+^squid:CallToDeprecatedMethod\"/Remove this use of "getFile"; it is deprecated.(¼Ô¥°8“×Ïü.
+msquid:UselessImportCheck"BRemove this unused import 'org.json.simple.parser.ParseException'.(ƒÁ‡8´ÖÅû.

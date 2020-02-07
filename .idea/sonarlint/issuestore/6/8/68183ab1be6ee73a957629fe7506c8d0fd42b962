@@ -1,0 +1,9 @@
+
+Fsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8 ºÒÖ.
+±%squid:RedundantThrowsDeclarationCheck—"sRemove the declaration of thrown exception 'cassandra.ArchiveException', as it cannot be thrown from method's body.(ƒÇ’“ùÿÿÿÿ8 ºÒÖ.
+Hsquid:S00108n")Either remove or fill this block of code.(·…‹Ğ8ùƒ«Ó.
+Nsquid:S1068."0Remove this unused "contactPoint" private field.(•áÑ8ÃÆÁÓ.
+?squid:S1170."!Make this final field static too.(•áÑ8¹§ÂÓ.
+Esquid:S10682"(Remove this unused "port" private field.(¤Ôøc8ÀŠÄÓ.
+°%squid:RedundantThrowsDeclarationCheckx"sRemove the declaration of thrown exception 'cassandra.ArchiveException', as it cannot be thrown from method's body.(ÎÒ¼µøÿÿÿÿ8 ºÒÖ.
+esquid:HiddenFieldCheck™";Rename "session" which hides the field declared at line 53.(ÜÚì¼8ùƒ«Ó.

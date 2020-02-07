@@ -1,0 +1,20 @@
+
+jsquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(™ï“¤8Ïµâü.
+csquid:S2095 "EUse try-with-resources or close this "Scanner" in a "finally" clause.(Ù¿ùı8Ïµâü.
+Tsquid:S1153>"1Directly append the argument of String.valueOf().(Ã„ÜÒıÿÿÿÿ8¤–áü.
+esquid:S2095""HUse try-with-resources or close this "FileWriter" in a "finally" clause.(óµ½n8Ïµâü.
+[squid:UselessImportCheck	"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8”†ü.
+Tsquid:S1153;"1Directly append the argument of String.valueOf().(„¦ù´ûÿÿÿÿ8¤–áü.
+[squid:UselessImportCheck"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8”†ü.
+Isquid:S1075>"&Remove this hard-coded path-delimiter.(Ã„ÜÒıÿÿÿÿ8¤–áü.
+vsquid:UselessImportCheck"FRemove this unused import 'io.undertow.server.handlers.form.FormData'.(Êä‹’ûÿÿÿÿ8 Ğü.
+ksquid:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(Âú×ìûÿÿÿÿ8Ïµâü.
+Fsquid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ïµâü.
+Isquid:S1075;"&Remove this hard-coded path-delimiter.(„¦ù´ûÿÿÿÿ8¤–áü.
+Jsquid:S1481 ",Remove this unused "scanner" local variable.(Ù¿ùı8Ïµâü.
+]squid:UselessImportCheck"2Remove this unused import 'com.opencsv.CSVReader'.(‚á•Æ8‚âü.
+‚squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ã‚ôûÿÿÿÿ8Ïµâü.
+]
+squid:S899'";Do something with the "boolean" value returned by "exists".(Ÿ¢×¡úÿÿÿÿ8Ïµâü.
+%squid:RedundantThrowsDeclarationCheck0"fRemove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.(²ßôÊ8¤–áü.
+<squid:S21199"Save and re-use this "Random".(–áÍÈ8¤–áü.
