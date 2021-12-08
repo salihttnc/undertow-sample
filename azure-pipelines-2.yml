@@ -10,8 +10,8 @@ pool:
 steps:
 - task: loadiumIntegration@0
   inputs:
-    access_key: 'KpYUz1kHdnnB7qFgmhwe'
-    secret_key: 'C9sXu6VLp0NVnUbHZ6hYIb9k6qozynmnZmT6Biuo'
+    access_key: 'qiuYCaaZMgPbPVlxsH2R'
+    secret_key: '78elUjbb76WFkFmCLGeuKhJSBA8KvdJlxnwCeYHB'
     test_key: 'clnm199b2oph09m98jgng4276fues7ur'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
