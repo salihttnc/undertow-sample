@@ -1,5 +1,6 @@
 # Maven
 
+
 trigger:
 - master
 
@@ -27,11 +28,12 @@ steps:
     jmeter_version: '5.0'
     region: 'eu-west-1'
     file_path: '$(System.DefaultWorkingDirectory)/dummy.jmx'
+    additionalFile: false
     split: false
     engine: '1'
     thread: '200'
     duration: '2'
     iteration: '-1'
-    rampup: '10'   
+    rampup: '10'  
 
 
