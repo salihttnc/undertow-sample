@@ -22,5 +22,21 @@ steps:
     access_key: 'byA1U3RDtQYKGNOyXlFv'
     secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
     test_key: 'a9qvookdo8hjalu0p60p1va7e5iourhj'
+- task: loadiumIntegration@1
+  inputs:
+    access_key: 'byA1U3RDtQYKGNOyXlFv'
+    secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
+    createTest: true
+    test_name: 'My New Test'
+    testType: 'JMX'
+    jmeter_version: '5.0'
+    region: 'eu-west-1'
+    file_path: '$(System.DefaultWorkingDirectory)/_salihttnc_undertow-sample/dummy.jmx'
+    split: false
+    engine: '1'
+    thread: '200'
+    duration: '2'
+    iteration: '-1'
+    rampup: '10'   
 
 
