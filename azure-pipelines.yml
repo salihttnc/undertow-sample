@@ -31,7 +31,7 @@ steps:
     additionalFile: false
     split: false
     engine: '1'
-    thread: '200'
+    thread: '50'
     duration: '2'
     iteration: '-1'
     rampup: '10'  
