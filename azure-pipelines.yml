@@ -21,11 +21,6 @@ steps:
   inputs:
     access_key: 'byA1U3RDtQYKGNOyXlFv'
     secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
-    test_key: 'a9qvookdo8hjalu0p60p1va7e5iourhj'
-- task: loadiumIntegration@1
-  inputs:
-    access_key: 'byA1U3RDtQYKGNOyXlFv'
-    secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
     createTest: true
     test_name: 'My New Test'
     testType: 'JMX'
