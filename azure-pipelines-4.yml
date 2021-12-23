@@ -1,12 +1,4 @@
 # Maven
-- task: loadiumIntegration@1
-  inputs:
-    access_key: 'byA1U3RDtQYKGNOyXlFv'
-    secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
-    test_key: '21khf08oc7q30p2sg02ilnc9gl65c8hk'
-# Build your Java project and run tests with Apache Maven.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
 - master
@@ -25,3 +17,19 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: loadiumIntegration@1
+  inputs:
+    access_key: 'byA1U3RDtQYKGNOyXlFv'
+    secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
+    createTest: true
+    test_name: 'isim'
+    testType: 'JMX'
+    jmeter_version: '5.0'
+    region: 'eu-west-1'
+    file_path: '$(System.DefaultWorkingDirectory)/dummy.jmx'
+    additionalFile: false
+    engine: '1'
+    thread: '100'
+    duration: '2'
+    iteration: '-1'
+    rampup: '10'
